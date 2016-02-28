@@ -3,19 +3,19 @@ package de.simonbrungs.test;
 import de.simonbrungs.teachingit.TeachingIt;
 import de.simonbrungs.teachingit.api.plugin.theme.ErrorPageContentGenerator;
 import de.simonbrungs.teachingit.api.plugin.theme.Theme;
-import de.simonbrungs.teachingit.api.users.User;
+import de.simonbrungs.teachingit.api.users.TempUser;
 
 public class MainTheme extends Theme {
 	Errors errors = new Errors();
 
 	@Override
-	public String getBodyEnd(User arg0) {
+	public String getBodyEnd(TempUser arg0) {
 		return "</div><footer class='footer'><ul class='listeul'><a href='http://simonsator.de/' class='footerLink'>"
 				+ "©Simonsator</a></ul><ul class='listeul'>Developer: Simon 'Simonsator' Brungs'</ul></footer>";
 	}
 
 	@Override
-	public String getBodyStart(User arg0) {
+	public String getBodyStart(TempUser arg0) {
 		return "<body class='body'>" + "<div class='kopf'>"
 				+ " <nav class='navbar navbar-inverse navbar-static-top ng-scope' id='site-nav' role='navigation'>"
 				+ " <div class='container'> <div align='center'>" + " <a class='navbar-brand' href='http://"
