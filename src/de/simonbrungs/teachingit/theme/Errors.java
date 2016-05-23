@@ -1,4 +1,4 @@
-package de.simonbrungs.test;
+package de.simonbrungs.teachingit.theme;
 
 import de.simonbrungs.teachingit.api.events.ContentCreateEvent;
 import de.simonbrungs.teachingit.api.plugin.theme.ErrorPageContentGenerator;
