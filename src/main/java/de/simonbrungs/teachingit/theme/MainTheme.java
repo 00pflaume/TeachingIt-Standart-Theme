@@ -11,7 +11,7 @@ public class MainTheme extends Theme {
 	@Override
 	public String getBodyEnd(TempUser arg0) {
 		return "</div><footer class='footer'><ul class='listeul'><a href='http://simonsator.de/' class='footerLink'>"
-				+ "©Simonsator</a></ul><ul class='listeul'>Developer: Simon 'Simonsator' Brungs'</ul></footer>";
+				+ "Â©Simonsator</a></ul><ul class='listeul'>Developer: Simon 'Simonsator' Brungs'</ul></footer>";
 	}
 
 	@Override
