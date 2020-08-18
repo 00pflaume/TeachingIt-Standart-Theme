@@ -6,7 +6,7 @@ import de.simonbrungs.teachingit.api.plugin.theme.Theme;
 import de.simonbrungs.teachingit.api.users.TempUser;
 
 public class MainTheme extends Theme {
-	Errors errors = new Errors();
+	private final Errors errors = new Errors();
 
 	@Override
 	public String getBodyEnd(TempUser arg0) {
